@@ -6,6 +6,7 @@ namespace BulkyWeb.ViewModels
     public class ProductRequest
     {
         [Required]
+        [MaxLength(30)]
         [Display(Name = "Title")]
         public string? Title { get; set; }
         [Display(Name = "Description")]
@@ -41,7 +42,7 @@ namespace BulkyWeb.ViewModels
         [Required]
         [Display(Name = "Category")]
         public int CategoryId { get; set; }
-        [Display(Name = "Category")]    
+        [Display(Name = "Image")]    
         public IFormFile? Image { get; set; } // Dành cho file ảnh nếu cần
     }
 }
