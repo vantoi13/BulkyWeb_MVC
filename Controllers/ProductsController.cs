@@ -7,23 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BulkyWeb.Data;
 using BulkyWeb.Models;
+using BulkyWeb.Services;
+using BulkyWeb.ViewModels;
 
 namespace BulkyWeb.Controllers
 {
     public class ProductsController : Controller
     {
+      
         private readonly ApplicationDbContext _context;
-
-        public ProductsController(ApplicationDbContext context)
+        private readonly IProductService _productService;
+        public ProductsController(ApplicationDbContext context, IProductService productService)
         {
             _context = context;
+            _productService = productService;
         }
 
         // GET: Products
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Products.Include(p => p.Category);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _productService.GetProducts());
         }
 
         // GET: Products/Details/5
@@ -46,10 +50,13 @@ namespace BulkyWeb.Controllers
         }
 
         // GET: Products/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create(ProductRequest request)
         {
             ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
-            return View();
+            if(!ModelState.IsValid) {
+                return View(request);}
+            await _productService.Create(request);
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: Products/Create

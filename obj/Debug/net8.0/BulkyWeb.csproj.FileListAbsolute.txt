@@ -275,3 +275,5 @@ C:\donet\BulkyWeb\obj\Debug\net8.0\refint\BulkyWeb.dll
 C:\donet\BulkyWeb\obj\Debug\net8.0\BulkyWeb.pdb
 C:\donet\BulkyWeb\obj\Debug\net8.0\BulkyWeb.genruntimeconfig.cache
 C:\donet\BulkyWeb\obj\Debug\net8.0\ref\BulkyWeb.dll
+C:\donet\BulkyWeb\bin\Debug\net8.0\AutoMapper.dll
+C:\donet\BulkyWeb\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
