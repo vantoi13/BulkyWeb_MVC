@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\donet\\BulkyWeb\\BulkyWeb.csproj": {}
+    "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj": {}
   },
   "projects": {
-    "C:\\donet\\BulkyWeb\\BulkyWeb.csproj": {
+    "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\donet\\BulkyWeb\\BulkyWeb.csproj",
+        "projectUniqueName": "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj",
         "projectName": "BulkyWeb",
-        "projectPath": "C:\\donet\\BulkyWeb\\BulkyWeb.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\donet\\BulkyWeb\\obj\\",
+        "projectPath": "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -44,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
