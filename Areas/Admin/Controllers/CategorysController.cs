@@ -10,27 +10,26 @@ using BulkyWeb.Models;
 using BulkyWeb.Services;
 using BulkyWeb.ViewModels;
 
-namespace BulkyWeb.Controllers
+namespace BulkyWeb.Areas.Admin.Controllers
 {
-    public class ProductsController : Controller
+    [Area("Admin")]
+    public class CategorysController : Controller
     {
-
         private readonly ApplicationDbContext _context;
-        private readonly IProductService _productService;
-        public ProductsController(ApplicationDbContext context, IProductService productService)
+        private readonly ICategoryService _categoryService;
+        public CategorysController(ApplicationDbContext context, ICategoryService categoryService)
         {
             _context = context;
-            _productService = productService;
+            _categoryService = categoryService;
         }
 
-        // GET: Products
+        // GET: Categorys
         public async Task<IActionResult> Index()
         {
-            // var applicationDbContext = _context.Products.Include(p => p.Category);
-            return View(await _productService.GetProducts());
+            return View(await _categoryService.GetCategorys());
         }
 
-        // GET: Products/Details/5
+        // GET: Categorys/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -38,40 +37,39 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-
-            var product = await _productService.GetProduct(id.Value);
-
-            if (product == null)
+            var category = await _categoryService.GetCategory(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(category);
         }
 
-        // GET: Products/Create
+        // GET: Categorys/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
             return View();
         }
-        // POST: Products/Create
+
+        // POST: Categorys/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        public async Task<IActionResult> Create(ProductRequest request)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(CategoryRequest request)
         {
             if (ModelState.IsValid)
             {
-                var result = await _productService.Create(request);
-                if (result != null) 
+                var result = await _categoryService.Create(request);
+                TempData["Success"] = "Category created successfully";
+                if(result != null)
                 return RedirectToAction(nameof(Index));
-
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", request.CategoryId);
             return View(request);
         }
-        // GET: Products/Edit/5
+
+        // GET: Categorys/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -79,31 +77,31 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-            var product = await _productService.GetProduct(id.Value);
-            if (product == null)
+            var category = await _categoryService.GetCategory(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
-            return View(product);
+            return View(category);
         }
 
-        // POST: Products/Edit/5
+        // POST: Categorys/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, ProductViewModel product)
+        public async Task<IActionResult> Edit(int id, CategoryViewModel category)
         {
-            if (id != product.Id)
+            if (id != category.Id)
             {
                 return NotFound();
             }
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var result = await _productService.Update(id, product);
+                 var result  = await _categoryService.Update(id,category);
                     if (result)
                     {
                         return RedirectToAction(nameof(Index));
@@ -113,17 +111,14 @@ namespace BulkyWeb.Controllers
                 {
                     return NotFound();
                 }
-                ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
+                TempData["Success"] = "Category update successfully";
+
                 return RedirectToAction(nameof(Index));
-
             }
-            return View(product);
-
-
-
+            return View(category);
         }
 
-        // GET: Products/Delete/5
+        // GET: Categorys/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -131,24 +126,26 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-        var product = await _productService.GetProduct(id.Value);
-            if (product == null)
+          var category = await _categoryService.GetCategory(id.Value);
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(category);
         }
 
-        // POST: Products/Delete/5
+        // POST: Categorys/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-           await _productService.Delete(id);
+            
+            await _categoryService.Delete(id);
+            TempData["Success"] = "Category deleted successfully";
             return RedirectToAction(nameof(Index));
         }
 
-
+       
     }
 }
