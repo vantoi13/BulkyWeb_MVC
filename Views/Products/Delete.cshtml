@@ -1,4 +1,4 @@
-@model BulkyWeb.Models.Product
+@model BulkyWeb.ViewModels.ProductViewModel
 
 @{
     ViewData["Title"] = "Delete";
@@ -66,10 +66,10 @@
             @Html.DisplayFor(model => model.ImagePath)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
+            @Html.DisplayNameFor(model => model.CategoryName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category!.Name)
+            @Html.DisplayFor(model => model.CategoryName)
         </dd>
     </dl>
     

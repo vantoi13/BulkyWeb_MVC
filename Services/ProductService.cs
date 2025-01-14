@@ -30,44 +30,41 @@ namespace BulkyWeb.Services
             return _mapper.Map<ProductViewModel>(product);
         }
 
-        public async Task<bool> Create(ProductRequest request)
+        public async Task<Product> Create(ProductRequest request)
         {
             var product = _mapper.Map<Product>(request);
             if (request.Image != null)
             {
                 // Save image logic here
             }
-            _context.Products.Add(product);
-            return await _context.SaveChangesAsync() > 0;
+            _context.Add(product);
+            await _context.SaveChangesAsync();
+
+            return product;
         }
 
-        public async Task<bool> Update(int id, ProductRequest request)
+        public async Task<bool> Update(int id, ProductViewModel product)
         {
-            var product = await _context.Products.FindAsync(id);
-            if (product == null) return false;
+            _context.Update(_mapper.Map<Product>(product));
+            await _context.SaveChangesAsync();
 
-            _mapper.Map(request, product);
-            if (request.Image != null)
-            {
-                // Update image logic here
-            }
-
-            _context.Products.Update(product);
-            return await _context.SaveChangesAsync() > 0;
+            return true;
         }
 
         public async Task<bool> Delete(int id)
         {
             var product = await _context.Products.FindAsync(id);
-            if (product == null) return false;
-
-            _context.Products.Remove(product);
-            return await _context.SaveChangesAsync() > 0;
+            if (product != null)
+            {
+                _context.Products.Remove(product);
+            }
+            await _context.SaveChangesAsync();
+            return true;
         }
 
-        public Task<bool> Update(ProductRequest request, int id)
+        public bool ProductExists(int id)
         {
-            throw new NotImplementedException();
+            return _context.Products.Any(e => e.Id == id);
         }
     }
 }
