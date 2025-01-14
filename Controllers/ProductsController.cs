@@ -26,7 +26,7 @@ namespace BulkyWeb.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Products.Include(p => p.Category);
+            // var applicationDbContext = _context.Products.Include(p => p.Category);
             return View(await _productService.GetProducts());
         }
 
@@ -64,7 +64,8 @@ namespace BulkyWeb.Controllers
             if (ModelState.IsValid)
             {
                 var result = await _productService.Create(request);
-                if (result != null) return RedirectToAction(nameof(Index));
+                if (result != null) 
+                return RedirectToAction(nameof(Index));
 
             }
             ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name", request.CategoryId);

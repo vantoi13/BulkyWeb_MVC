@@ -7,22 +7,25 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BulkyWeb.Data;
 using BulkyWeb.Models;
+using BulkyWeb.Services;
+using BulkyWeb.ViewModels;
 
 namespace BulkyWeb.Controllers
 {
     public class CategorysController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public CategorysController(ApplicationDbContext context)
+        private readonly ICategoryService _categoryService;
+        public CategorysController(ApplicationDbContext context, ICategoryService categoryService)
         {
             _context = context;
+            _categoryService = categoryService;
         }
 
         // GET: Categorys
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Category.ToListAsync());
+            return View(await _categoryService.GetCategorys());
         }
 
         // GET: Categorys/Details/5
@@ -33,8 +36,7 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Category
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var category = await _categoryService.GetCategory(id.Value);
             if (category == null)
             {
                 return NotFound();
@@ -54,16 +56,16 @@ namespace BulkyWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,DisplayOrder")] Category category)
+        public async Task<IActionResult> Create(CategoryRequest request)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
+                var result = await _categoryService.Create(request);
                 TempData["Success"] = "Category created successfully";
+                if(result != null)
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            return View(request);
         }
 
         // GET: Categorys/Edit/5
@@ -74,7 +76,7 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Category.FindAsync(id);
+            var category = await _categoryService.GetCategory(id.Value);
             if (category == null)
             {
                 return NotFound();
@@ -87,7 +89,7 @@ namespace BulkyWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,DisplayOrder")] Category category)
+        public async Task<IActionResult> Edit(int id, CategoryViewModel category)
         {
             if (id != category.Id)
             {
@@ -98,19 +100,15 @@ namespace BulkyWeb.Controllers
             {
                 try
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
+                 var result  = await _categoryService.Update(id,category);
+                    if (result)
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryExists(category.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    return NotFound();
                 }
                 TempData["Success"] = "Category update successfully";
 
@@ -127,8 +125,7 @@ namespace BulkyWeb.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Category
-                .FirstOrDefaultAsync(m => m.Id == id);
+          var category = await _categoryService.GetCategory(id.Value);
             if (category == null)
             {
                 return NotFound();
@@ -142,20 +139,12 @@ namespace BulkyWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var category = await _context.Category.FindAsync(id);
-            if (category != null)
-            {
-                _context.Category.Remove(category);
-            }
-
-            await _context.SaveChangesAsync();
+            
+            await _categoryService.Delete(id);
             TempData["Success"] = "Category deleted successfully";
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoryExists(int id)
-        {
-            return _context.Category.Any(e => e.Id == id);
-        }
+       
     }
 }

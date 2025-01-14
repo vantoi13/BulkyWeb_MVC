@@ -16,8 +16,8 @@ namespace BulkyWeb.ViewModels
                  .ForMember(dest => dest.Category, opt => opt.Ignore()) // Bỏ qua Category để tránh lỗi ánh xạ vòng
                  .ForMember(dest => dest.CategoryId, opt => opt.MapFrom(src => src.CategoryId));
 
-
-
+   
+           
         }
     }
 }
