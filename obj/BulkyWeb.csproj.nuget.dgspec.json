@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\donet\\BulkyWeb\\BulkyWeb.csproj": {}
+    "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj": {}
   },
   "projects": {
-    "C:\\donet\\BulkyWeb\\BulkyWeb.csproj": {
+    "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\donet\\BulkyWeb\\BulkyWeb.csproj",
+        "projectUniqueName": "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj",
         "projectName": "BulkyWeb",
-        "projectPath": "C:\\donet\\BulkyWeb\\BulkyWeb.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\donet\\BulkyWeb\\obj\\",
+        "projectPath": "C:\\DotnetProjects\\BulkyWeb_MVC\\BulkyWeb.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,6 +80,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

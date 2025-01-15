@@ -17,89 +17,89 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BulkyWeb
 build_property.RootNamespace = BulkyWeb
-build_property.ProjectDir = C:\donet\BulkyWeb\
+build_property.ProjectDir = C:\DotnetProjects\BulkyWeb_MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\donet\BulkyWeb
+build_property.MSBuildProjectDirectory = C:\DotnetProjects\BulkyWeb_MVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/donet/BulkyWeb/Areas/Admin/Views/Home/Index.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Categorys/Create.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Categorys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Categorys/Delete.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Categorys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Categorys/Details.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Categorys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Categorys/Edit.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Categorys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Categorys/Index.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Categorys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Home/Index.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Home/Privacy.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Products/Create.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Products/Delete.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Products/Details.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Products/Edit.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Products/Index.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Shared/Error.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Shared/_Notification.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/_ViewImports.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/_ViewStart.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/donet/BulkyWeb/Views/Shared/_Layout.cshtml]
+[C:/DotnetProjects/BulkyWeb_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0n66aqhna2
