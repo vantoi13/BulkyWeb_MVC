@@ -29,6 +29,8 @@ namespace BulkyWeb.ViewModels
         [Display(Name = "Category")]
         public string? CategoryName { get; set; } // Ánh xạ từ Category
         [Display(Name = "Image")]
-        public string? ImagePath { get; set; } // Đường dẫn ảnh
+        public string? ImagePath { get; set; }
+        public IFormFile? Image { get; set; } // Dành cho file ảnh nếu cần
+                                              // Đường dẫn ảnh
     }
 }
