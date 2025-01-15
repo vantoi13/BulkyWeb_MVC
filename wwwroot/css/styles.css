@@ -90,6 +90,20 @@
     scroll-behavior: smooth;
   }
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* Đảm bảo tất cả card có chiều cao bằng nhau */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Chia đều khoảng cách các phần tử */
+}
 
 body {
   margin: 0;

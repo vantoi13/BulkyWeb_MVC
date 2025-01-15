@@ -9,9 +9,7 @@
                 Category List
             </h2>
         </div>
-        <div class="col-6 a text-end">
-            <a class="btn btn-primary" asp-action="Create"> <i class="bi bi-plus-circle"></i>Create New Category</a>
-        </div>
+       
     </div>
 </div>
 
@@ -24,7 +22,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.DisplayOrder)
             </th>
-            <th></th>
+            <th style="width: 10%; text-align: center;">Manage</th>
         </tr>
     </thead>
     <tbody>
@@ -38,15 +36,21 @@
                     @Html.DisplayFor(modelItem => item.DisplayOrder)
                 </td>
                 <td>
-                    <div class="w-75 btn-group" role="group">
-                        <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.Id" ><i
-                                class=" bi-pencil-square"></i></a> |
-                        <a asp-action="Details" class="btn btn-danger" asp-route-id="@item.Id"><i
-                                class="bi bi-ticket-detailed"></i></a> |
-                        <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id"><i
-                                class="bi bi-trash3"></i></a>
+                    <div class="d-flex justify-content-center gap-1">
+                        <a class="btn btn-primary " asp-action="Create"> <i class="bi bi-plus-circle"></i></a>
+                        <a asp-action="Edit" class="btn btn-primary " asp-route-id="@item.Id">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <a asp-action="Details" class="btn btn-info " asp-route-id="@item.Id">
+                            <i class="bi bi-ticket-detailed"></i>
+                        </a>
+                        <a asp-action="Delete" class="btn btn-danger " asp-route-id="@item.Id">
+                            <i class="bi bi-trash3"></i>
+                        </a>
                     </div>
                 </td>
+
+
             </tr>
         }
     </tbody>
