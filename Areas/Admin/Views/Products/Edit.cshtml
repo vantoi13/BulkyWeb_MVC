@@ -1,0 +1,139 @@
+@model BulkyWeb.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                @* <span asp-validation-for="Description" class="text-danger"></span> *@
+            </div>
+            <div class="form-group">
+                <label asp-for="ISBN" class="control-label"></label>
+                <input asp-for="ISBN" class="form-control" />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author" class="control-label"></label>
+                <input asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ListPrice" class="control-label"></label>
+                <input asp-for="ListPrice" class="form-control" />
+                <span asp-validation-for="ListPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price50" class="control-label"></label>
+                <input asp-for="Price50" class="form-control" />
+                <span asp-validation-for="Price50" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price100" class="control-label"></label>
+                <input asp-for="Price100" class="form-control" />
+                <span asp-validation-for="Price100" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="ImagePath" />
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" type="file" class="form-control" id="image-input" onchange="previewImage(event)"
+                    accept="image/*" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="image-preview my-2">
+                <img id="preview" class="img-fluid border rounded" src="@Model.ImagePath" alt="Preview"
+                    style="max-width: 300px; max-height: 300px; object-fit: contain;" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" style="width: 150px;" />
+                <a asp-action="Index" class="btn btn btn-primary" style="width: 150px;">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            $('#image-input').change(function () {
+                var input = this;
+
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('#preview').attr('src', e.target.result).removeClass('d-none');
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
+                } else {
+                    $('#preview').addClass('d-none');
+                }
+            });
+
+            var imagePath = "@Model.ImagePath";
+            if (imagePath == null || imagePath.trim() === "") {
+                $('#preview').addClass('d-none');
+            }
+        });
+
+    </script>
+    <script src="https://cdn.tiny.cloud/1/f6bv7s9n94d604kag58mxd4wmdyzicgy8d60fpu569xwbpdz/tinymce/7/tinymce.min.js"
+        referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: [
+                'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media',
+                'searchreplace', 'table', 'visualblocks', 'wordcount', 'formatpainter', 'typography',
+                'checklist', 'advtable', 'advcode', 'editimage', 'fontfamily', 'fontsize', 'forecolor',
+                'backcolor' // Plugin cho màu chữ và nền
+            ],
+            toolbar: 'undo redo | fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            font_family_formats: 'Arial=arial,helvetica,sans-serif; Courier New=courier new,courier,monospace; Georgia=georgia,palatino,serif; Times New Roman=times new roman,times,serif; Verdana=verdana,geneva,sans-serif;',
+            fontsize_formats: '8pt 10pt 12pt 14pt 18pt 24pt 36pt',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            menubar: false,
+            branding: false,
+            height: 300,
+            setup: (editor) => {
+                editor.on('init', () => {
+                    console.log('TinyMCE Initialized');
+                });
+            }
+        });
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
