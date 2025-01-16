@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ObMMPbynxWM1AyyWNmFD3oXIzwzJvAx05q8TMfCXVM0=",
+  "Hash": "OvKCWHU44nzeWY42PmMO6F+QZa5Bd6yZ0e4ie6ziRPQ=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-dqle62frat.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-1og25pym0p.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "js/scripts#[.{fingerprint=dqle62frat}]?.js.gz",
+      "RelativePath": "js/scripts#[.{fingerprint=1og25pym0p}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -136,19 +136,19 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\scripts.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hrqlwsyzkp",
-      "Integrity": "Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI=",
+      "Fingerprint": "jbhnlj1w5x",
+      "Integrity": "byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-xnqwbb6zwd.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-mrcm95qwwq.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "js/datatables-simple-demo#[.{fingerprint=xnqwbb6zwd}]?.js.gz",
+      "RelativePath": "js/datatables-simple-demo#[.{fingerprint=mrcm95qwwq}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\datatables-simple-demo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lr5c0o8djz",
-      "Integrity": "zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw=",
+      "Fingerprint": "ehefc04v59",
+      "Integrity": "EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\datatables-simple-demo.js"
@@ -206,12 +206,12 @@
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-qbt6h4ox5y.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-brjq0h443p.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "assets/demo/chart-bar-demo#[.{fingerprint=qbt6h4ox5y}]?.js.gz",
+      "RelativePath": "assets/demo/chart-bar-demo#[.{fingerprint=brjq0h443p}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -220,19 +220,19 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-bar-demo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "96yp0xiev2",
-      "Integrity": "v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU=",
+      "Fingerprint": "axfa8wi6wb",
+      "Integrity": "HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-6kgo10py62.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-0ap1muiufn.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "css/styles#[.{fingerprint=6kgo10py62}]?.css.gz",
+      "RelativePath": "css/styles#[.{fingerprint=0ap1muiufn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -241,8 +241,8 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\css\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "44tdulubyy",
-      "Integrity": "XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw=",
+      "Fingerprint": "uau0xuekyh",
+      "Integrity": "ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\css\\styles.css"
@@ -353,12 +353,12 @@
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-hw7eaup9v4.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-bjnbpt8phk.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "assets/demo/chart-pie-demo#[.{fingerprint=hw7eaup9v4}]?.js.gz",
+      "RelativePath": "assets/demo/chart-pie-demo#[.{fingerprint=bjnbpt8phk}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -367,8 +367,8 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-pie-demo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "oklctplf3b",
-      "Integrity": "yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw=",
+      "Fingerprint": "n1035sm805",
+      "Integrity": "+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-pie-demo.js"
@@ -1067,12 +1067,12 @@
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-w9gruc5uo1.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-s2ygsab6ne.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "assets/demo/datatables-demo#[.{fingerprint=w9gruc5uo1}]?.js.gz",
+      "RelativePath": "assets/demo/datatables-demo#[.{fingerprint=s2ygsab6ne}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1081,8 +1081,8 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\datatables-demo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "aj3xj4jip5",
-      "Integrity": "2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI=",
+      "Fingerprint": "q36gnk2812",
+      "Integrity": "5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\datatables-demo.js"
@@ -1151,12 +1151,12 @@
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-8flq4k35dk.gz",
+      "Identity": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-g1bcqwktbt.gz",
       "SourceId": "BulkyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BulkyWeb",
-      "RelativePath": "assets/demo/chart-area-demo#[.{fingerprint=8flq4k35dk}]?.js.gz",
+      "RelativePath": "assets/demo/chart-area-demo#[.{fingerprint=g1bcqwktbt}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1165,8 +1165,8 @@
       "RelatedAsset": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-area-demo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9s90dn3v48",
-      "Integrity": "d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps=",
+      "Fingerprint": "vg5yjrnr3q",
+      "Integrity": "L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-area-demo.js"
@@ -1522,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8flq4k35dk",
-      "Integrity": "9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk=",
+      "Fingerprint": "g1bcqwktbt",
+      "Integrity": "HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-area-demo.js"
@@ -1543,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qbt6h4ox5y",
-      "Integrity": "9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I=",
+      "Fingerprint": "brjq0h443p",
+      "Integrity": "efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-bar-demo.js"
@@ -1564,8 +1564,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hw7eaup9v4",
-      "Integrity": "gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo=",
+      "Fingerprint": "bjnbpt8phk",
+      "Integrity": "GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-pie-demo.js"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w9gruc5uo1",
-      "Integrity": "3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo=",
+      "Fingerprint": "s2ygsab6ne",
+      "Integrity": "fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\demo\\datatables-demo.js"
@@ -1648,8 +1648,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6kgo10py62",
-      "Integrity": "KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U=",
+      "Fingerprint": "0ap1muiufn",
+      "Integrity": "yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xnqwbb6zwd",
-      "Integrity": "A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ=",
+      "Fingerprint": "mrcm95qwwq",
+      "Integrity": "3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\datatables-simple-demo.js"
@@ -1711,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dqle62frat",
-      "Integrity": "hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720=",
+      "Fingerprint": "1og25pym0p",
+      "Integrity": "4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
@@ -3169,13 +3169,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/demo/chart-area-demo.8flq4k35dk.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-8flq4k35dk.gz",
+      "Route": "assets/demo/chart-area-demo.g1bcqwktbt.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-g1bcqwktbt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001477104874"
+          "Quality": "0.001459854015"
         }
       ],
       "ResponseHeaders": [
@@ -3185,15 +3185,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "676"
+          "Value": "684"
         },
         {
           "Name": "ETag",
-          "Value": "\"d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps=\""
+          "Value": "\"L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3213,13 +3213,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk=\""
+          "Value": "W/\"HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8flq4k35dk"
+          "Value": "g1bcqwktbt"
         },
         {
           "Name": "label",
@@ -3227,12 +3227,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk="
+          "Value": "sha256-HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-area-demo.8flq4k35dk.js",
+      "Route": "assets/demo/chart-area-demo.g1bcqwktbt.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-area-demo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3242,7 +3242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1530"
+          "Value": "1584"
         },
         {
           "Name": "Content-Type",
@@ -3250,11 +3250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk=\""
+          "Value": "\"HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3264,7 +3264,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8flq4k35dk"
+          "Value": "g1bcqwktbt"
         },
         {
           "Name": "label",
@@ -3272,13 +3272,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk="
+          "Value": "sha256-HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-area-demo.8flq4k35dk.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-8flq4k35dk.gz",
+      "Route": "assets/demo/chart-area-demo.g1bcqwktbt.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-g1bcqwktbt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3287,7 +3287,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "676"
+          "Value": "684"
         },
         {
           "Name": "Content-Type",
@@ -3295,11 +3295,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps=\""
+          "Value": "\"L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3317,7 +3317,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8flq4k35dk"
+          "Value": "g1bcqwktbt"
         },
         {
           "Name": "label",
@@ -3325,18 +3325,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps="
+          "Value": "sha256-L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE="
         }
       ]
     },
     {
       "Route": "assets/demo/chart-area-demo.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-8flq4k35dk.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-g1bcqwktbt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001477104874"
+          "Quality": "0.001459854015"
         }
       ],
       "ResponseHeaders": [
@@ -3346,15 +3346,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "676"
+          "Value": "684"
         },
         {
           "Name": "ETag",
-          "Value": "\"d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps=\""
+          "Value": "\"L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3374,13 +3374,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk=\""
+          "Value": "W/\"HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk="
+          "Value": "sha256-HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8="
         }
       ]
     },
@@ -3395,7 +3395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1530"
+          "Value": "1584"
         },
         {
           "Name": "Content-Type",
@@ -3403,11 +3403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk=\""
+          "Value": "\"HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3417,13 +3417,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9LLP7XKqyptnrNbmQqIjm5rIDw5zwE9KWE4hVhK5Jvk="
+          "Value": "sha256-HOPeQ33CTWDISpGLIVfuC4xPiQCk0EUEHwO7IzODjp8="
         }
       ]
     },
     {
       "Route": "assets/demo/chart-area-demo.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-8flq4k35dk.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\qurcbyory2-g1bcqwktbt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3432,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "676"
+          "Value": "684"
         },
         {
           "Name": "Content-Type",
@@ -3440,11 +3440,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps=\""
+          "Value": "\"L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3462,18 +3462,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-d/WyEdGUoSLV7XXG/m63oUc0Nl/5FhX9GDGy1KaT8Ps="
+          "Value": "sha256-L78U14Bk9XoBOUTtTod7PHL56G9R6ey+D6QXmrwOMQE="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-bar-demo.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-qbt6h4ox5y.gz",
+      "Route": "assets/demo/chart-bar-demo.brjq0h443p.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-brjq0h443p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001811594203"
+          "Quality": "0.001788908766"
         }
       ],
       "ResponseHeaders": [
@@ -3483,19 +3483,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "551"
+          "Value": "558"
         },
         {
           "Name": "ETag",
-          "Value": "\"v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU=\""
+          "Value": "\"HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3511,18 +3511,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I=\""
+          "Value": "W/\"efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "brjq0h443p"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/demo/chart-bar-demo.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I="
+          "Value": "sha256-efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-bar-demo.js",
+      "Route": "assets/demo/chart-bar-demo.brjq0h443p.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-bar-demo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3532,7 +3540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1112"
+          "Value": "1158"
         },
         {
           "Name": "Content-Type",
@@ -3540,121 +3548,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I=\""
+          "Value": "\"efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I="
-        }
-      ]
-    },
-    {
-      "Route": "assets/demo/chart-bar-demo.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-qbt6h4ox5y.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "551"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU="
-        }
-      ]
-    },
-    {
-      "Route": "assets/demo/chart-bar-demo.qbt6h4ox5y.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-qbt6h4ox5y.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001811594203"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "551"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qbt6h4ox5y"
+          "Value": "brjq0h443p"
         },
         {
           "Name": "label",
@@ -3662,13 +3570,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I="
+          "Value": "sha256-efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-bar-demo.qbt6h4ox5y.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "Route": "assets/demo/chart-bar-demo.brjq0h443p.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-brjq0h443p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3677,7 +3585,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1112"
+          "Value": "558"
         },
         {
           "Name": "Content-Type",
@@ -3685,56 +3593,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I=\""
+          "Value": "\"HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qbt6h4ox5y"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/demo/chart-bar-demo.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9tpvm3R5RdFWxUDIA09CWwnWxpLxiJYWKom8gdLwl3I="
-        }
-      ]
-    },
-    {
-      "Route": "assets/demo/chart-bar-demo.qbt6h4ox5y.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-qbt6h4ox5y.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "551"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3752,7 +3615,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qbt6h4ox5y"
+          "Value": "brjq0h443p"
         },
         {
           "Name": "label",
@@ -3760,18 +3623,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-v8LALuwF9dWSU9KDxLEybj/cqUEitSgWffmEL6hJptU="
+          "Value": "sha256-HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-pie-demo.hw7eaup9v4.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-hw7eaup9v4.gz",
+      "Route": "assets/demo/chart-bar-demo.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-brjq0h443p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002493765586"
+          "Quality": "0.001788908766"
         }
       ],
       "ResponseHeaders": [
@@ -3781,15 +3644,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "400"
+          "Value": "558"
         },
         {
           "Name": "ETag",
-          "Value": "\"yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw=\""
+          "Value": "\"HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/demo/chart-bar-demo.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-efVryvrAjYmniLkLrbG/nLbLad3QJdROpioyLqYGUCM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/demo/chart-bar-demo.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\5xnjy3ap1x-brjq0h443p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HpfZZL5JduFhdw0OS1caTkxo0n14k1CtJ28DbxMexLI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/demo/chart-pie-demo.bjnbpt8phk.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-bjnbpt8phk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002469135802"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "404"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3809,13 +3809,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo=\""
+          "Value": "W/\"GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hw7eaup9v4"
+          "Value": "bjnbpt8phk"
         },
         {
           "Name": "label",
@@ -3823,12 +3823,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo="
+          "Value": "sha256-GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-pie-demo.hw7eaup9v4.js",
+      "Route": "assets/demo/chart-pie-demo.bjnbpt8phk.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\chart-pie-demo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3838,7 +3838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "597"
+          "Value": "613"
         },
         {
           "Name": "Content-Type",
@@ -3846,11 +3846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo=\""
+          "Value": "\"GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3860,7 +3860,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hw7eaup9v4"
+          "Value": "bjnbpt8phk"
         },
         {
           "Name": "label",
@@ -3868,13 +3868,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo="
+          "Value": "sha256-GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI="
         }
       ]
     },
     {
-      "Route": "assets/demo/chart-pie-demo.hw7eaup9v4.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-hw7eaup9v4.gz",
+      "Route": "assets/demo/chart-pie-demo.bjnbpt8phk.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-bjnbpt8phk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3883,7 +3883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "400"
+          "Value": "404"
         },
         {
           "Name": "Content-Type",
@@ -3891,11 +3891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw=\""
+          "Value": "\"+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3913,7 +3913,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hw7eaup9v4"
+          "Value": "bjnbpt8phk"
         },
         {
           "Name": "label",
@@ -3921,18 +3921,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw="
+          "Value": "sha256-+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU="
         }
       ]
     },
     {
       "Route": "assets/demo/chart-pie-demo.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-hw7eaup9v4.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-bjnbpt8phk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002493765586"
+          "Quality": "0.002469135802"
         }
       ],
       "ResponseHeaders": [
@@ -3942,15 +3942,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "400"
+          "Value": "404"
         },
         {
           "Name": "ETag",
-          "Value": "\"yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw=\""
+          "Value": "\"+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3970,13 +3970,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo=\""
+          "Value": "W/\"GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo="
+          "Value": "sha256-GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI="
         }
       ]
     },
@@ -3991,7 +3991,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "597"
+          "Value": "613"
         },
         {
           "Name": "Content-Type",
@@ -3999,11 +3999,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo=\""
+          "Value": "\"GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4013,13 +4013,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gXHh8OZnGFZ8Pb+CoSlwJ7lx7tZD1amOLrSASwI8Neo="
+          "Value": "sha256-GadUzcosBCCvAKbhEtLtfMcjwO0iKQDhgsD1MjKRDeI="
         }
       ]
     },
     {
       "Route": "assets/demo/chart-pie-demo.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-hw7eaup9v4.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\8mo47xb3cr-bjnbpt8phk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4028,7 +4028,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "400"
+          "Value": "404"
         },
         {
           "Name": "Content-Type",
@@ -4036,11 +4036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw=\""
+          "Value": "\"+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4058,18 +4058,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yLZ0jB2EaUvqw6jZYSqdVxS/5OzpxXX1mcWx7MWa1fw="
+          "Value": "sha256-+5eNfT0eD5EQ4UBjZQbM9MnkYibpVt7W1nEyI6zWfCU="
         }
       ]
     },
     {
       "Route": "assets/demo/datatables-demo.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-w9gruc5uo1.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-s2ygsab6ne.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.009090909091"
+          "Quality": "0.008928571429"
         }
       ],
       "ResponseHeaders": [
@@ -4079,15 +4079,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "109"
+          "Value": "111"
         },
         {
           "Name": "ETag",
-          "Value": "\"2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI=\""
+          "Value": "\"5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4107,13 +4107,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo=\""
+          "Value": "W/\"fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo="
+          "Value": "sha256-fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE="
         }
       ]
     },
@@ -4128,7 +4128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103"
+          "Value": "107"
         },
         {
           "Name": "Content-Type",
@@ -4136,11 +4136,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo=\""
+          "Value": "\"fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4150,13 +4150,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo="
+          "Value": "sha256-fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE="
         }
       ]
     },
     {
       "Route": "assets/demo/datatables-demo.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-w9gruc5uo1.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-s2ygsab6ne.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4165,7 +4165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "109"
+          "Value": "111"
         },
         {
           "Name": "Content-Type",
@@ -4173,11 +4173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI=\""
+          "Value": "\"5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4195,18 +4195,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI="
+          "Value": "sha256-5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I="
         }
       ]
     },
     {
-      "Route": "assets/demo/datatables-demo.w9gruc5uo1.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-w9gruc5uo1.gz",
+      "Route": "assets/demo/datatables-demo.s2ygsab6ne.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-s2ygsab6ne.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.009090909091"
+          "Quality": "0.008928571429"
         }
       ],
       "ResponseHeaders": [
@@ -4216,15 +4216,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "109"
+          "Value": "111"
         },
         {
           "Name": "ETag",
-          "Value": "\"2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI=\""
+          "Value": "\"5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4244,13 +4244,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo=\""
+          "Value": "W/\"fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9gruc5uo1"
+          "Value": "s2ygsab6ne"
         },
         {
           "Name": "label",
@@ -4258,12 +4258,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo="
+          "Value": "sha256-fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE="
         }
       ]
     },
     {
-      "Route": "assets/demo/datatables-demo.w9gruc5uo1.js",
+      "Route": "assets/demo/datatables-demo.s2ygsab6ne.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\assets\\demo\\datatables-demo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4273,7 +4273,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103"
+          "Value": "107"
         },
         {
           "Name": "Content-Type",
@@ -4281,11 +4281,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo=\""
+          "Value": "\"fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4295,7 +4295,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9gruc5uo1"
+          "Value": "s2ygsab6ne"
         },
         {
           "Name": "label",
@@ -4303,13 +4303,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3BYZ/ie9x2nIWSAO1N9M0VISPR5FfP5Wg0EKHZzNOoo="
+          "Value": "sha256-fLtBi6irYqHhTELUccxbgafCi+8gsCGq70Q5aL1/CHE="
         }
       ]
     },
     {
-      "Route": "assets/demo/datatables-demo.w9gruc5uo1.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-w9gruc5uo1.gz",
+      "Route": "assets/demo/datatables-demo.s2ygsab6ne.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\poinf857qr-s2ygsab6ne.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4318,7 +4318,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "109"
+          "Value": "111"
         },
         {
           "Name": "Content-Type",
@@ -4326,11 +4326,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI=\""
+          "Value": "\"5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4348,7 +4348,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9gruc5uo1"
+          "Value": "s2ygsab6ne"
         },
         {
           "Name": "label",
@@ -4356,7 +4356,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2jyrCIogV0XVhJFiEPmEONBgsEEXrICUatLQ+4ml4vI="
+          "Value": "sha256-5ummHw9cgV9PwDzQl7H/baSX4GidWzIVJf5AhAiXY0I="
         }
       ]
     },
@@ -4385,7 +4385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4438,7 +4438,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4475,7 +4475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4522,7 +4522,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4583,7 +4583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4628,7 +4628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4683,7 +4683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4744,7 +4744,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4789,7 +4789,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4844,7 +4844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4905,7 +4905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4950,7 +4950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5005,7 +5005,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5058,7 +5058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5095,7 +5095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5142,7 +5142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5195,7 +5195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5232,7 +5232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 06:48:48 GMT"
+          "Value": "Wed, 15 Jan 2025 16:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5553,13 +5553,13 @@
       ]
     },
     {
-      "Route": "css/styles.6kgo10py62.css",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-6kgo10py62.gz",
+      "Route": "css/styles.0ap1muiufn.css",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-0ap1muiufn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031265633"
+          "Quality": "0.000031020256"
         }
       ],
       "ResponseHeaders": [
@@ -5569,15 +5569,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31983"
+          "Value": "32236"
         },
         {
           "Name": "ETag",
-          "Value": "\"XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw=\""
+          "Value": "\"ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5597,13 +5597,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U=\""
+          "Value": "W/\"yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6kgo10py62"
+          "Value": "0ap1muiufn"
         },
         {
           "Name": "label",
@@ -5611,12 +5611,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U="
+          "Value": "sha256-yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc="
         }
       ]
     },
     {
-      "Route": "css/styles.6kgo10py62.css",
+      "Route": "css/styles.0ap1muiufn.css",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5626,7 +5626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250539"
+          "Value": "261795"
         },
         {
           "Name": "Content-Type",
@@ -5634,11 +5634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U=\""
+          "Value": "\"yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5648,7 +5648,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6kgo10py62"
+          "Value": "0ap1muiufn"
         },
         {
           "Name": "label",
@@ -5656,13 +5656,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U="
+          "Value": "sha256-yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc="
         }
       ]
     },
     {
-      "Route": "css/styles.6kgo10py62.css.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-6kgo10py62.gz",
+      "Route": "css/styles.0ap1muiufn.css.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-0ap1muiufn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5671,7 +5671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31983"
+          "Value": "32236"
         },
         {
           "Name": "Content-Type",
@@ -5679,11 +5679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw=\""
+          "Value": "\"ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5701,7 +5701,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6kgo10py62"
+          "Value": "0ap1muiufn"
         },
         {
           "Name": "label",
@@ -5709,18 +5709,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw="
+          "Value": "sha256-ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds="
         }
       ]
     },
     {
       "Route": "css/styles.css",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-6kgo10py62.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-0ap1muiufn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031265633"
+          "Quality": "0.000031020256"
         }
       ],
       "ResponseHeaders": [
@@ -5730,15 +5730,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31983"
+          "Value": "32236"
         },
         {
           "Name": "ETag",
-          "Value": "\"XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw=\""
+          "Value": "\"ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5758,13 +5758,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U=\""
+          "Value": "W/\"yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U="
+          "Value": "sha256-yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc="
         }
       ]
     },
@@ -5779,7 +5779,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250539"
+          "Value": "261795"
         },
         {
           "Name": "Content-Type",
@@ -5787,11 +5787,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U=\""
+          "Value": "\"yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5801,13 +5801,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KuVJtKGPOf3VtkKMGeprK7JuBQmWyTf1kItSBHi+I2U="
+          "Value": "sha256-yBvG3Xd1B9evwIHZm6UJYZGEG2nhnIS+Nu+QeiTWtMc="
         }
       ]
     },
     {
       "Route": "css/styles.css.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-6kgo10py62.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\6uvt0lqp5i-0ap1muiufn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5816,7 +5816,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31983"
+          "Value": "32236"
         },
         {
           "Name": "Content-Type",
@@ -5824,11 +5824,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw=\""
+          "Value": "\"ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 09:54:32 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5846,7 +5846,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XDkL+C1tYgnShIHi9JhWUGMs5DDUwA5ILbWTTkjc+Bw="
+          "Value": "sha256-ZnKzxzS1+I8kuKQ9arU7+uN1FzBLlPnn0gIS/LOOKds="
         }
       ]
     },
@@ -6150,12 +6150,12 @@
     },
     {
       "Route": "js/datatables-simple-demo.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-xnqwbb6zwd.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-mrcm95qwwq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004926108374"
+          "Quality": "0.004878048780"
         }
       ],
       "ResponseHeaders": [
@@ -6165,15 +6165,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "202"
+          "Value": "204"
         },
         {
           "Name": "ETag",
-          "Value": "\"zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw=\""
+          "Value": "\"EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6193,13 +6193,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ=\""
+          "Value": "W/\"3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ="
+          "Value": "sha256-3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE="
         }
       ]
     },
@@ -6214,7 +6214,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "312"
+          "Value": "321"
         },
         {
           "Name": "Content-Type",
@@ -6222,11 +6222,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ=\""
+          "Value": "\"3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6236,13 +6236,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ="
+          "Value": "sha256-3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE="
         }
       ]
     },
     {
       "Route": "js/datatables-simple-demo.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-xnqwbb6zwd.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-mrcm95qwwq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6251,7 +6251,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "202"
+          "Value": "204"
         },
         {
           "Name": "Content-Type",
@@ -6259,11 +6259,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw=\""
+          "Value": "\"EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6281,18 +6281,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw="
+          "Value": "sha256-EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY="
         }
       ]
     },
     {
-      "Route": "js/datatables-simple-demo.xnqwbb6zwd.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-xnqwbb6zwd.gz",
+      "Route": "js/datatables-simple-demo.mrcm95qwwq.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-mrcm95qwwq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004926108374"
+          "Quality": "0.004878048780"
         }
       ],
       "ResponseHeaders": [
@@ -6302,15 +6302,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "202"
+          "Value": "204"
         },
         {
           "Name": "ETag",
-          "Value": "\"zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw=\""
+          "Value": "\"EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6330,13 +6330,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ=\""
+          "Value": "W/\"3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xnqwbb6zwd"
+          "Value": "mrcm95qwwq"
         },
         {
           "Name": "label",
@@ -6344,12 +6344,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ="
+          "Value": "sha256-3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE="
         }
       ]
     },
     {
-      "Route": "js/datatables-simple-demo.xnqwbb6zwd.js",
+      "Route": "js/datatables-simple-demo.mrcm95qwwq.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\datatables-simple-demo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6359,7 +6359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "312"
+          "Value": "321"
         },
         {
           "Name": "Content-Type",
@@ -6367,11 +6367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ=\""
+          "Value": "\"3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6381,7 +6381,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xnqwbb6zwd"
+          "Value": "mrcm95qwwq"
         },
         {
           "Name": "label",
@@ -6389,13 +6389,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-A5r4X24Y4UOeA7FBC6HS3voj76xkmczywh9qO+Ly5hQ="
+          "Value": "sha256-3phc6m3mmzmZBhiJqrAufOd7OAjOJScoJBr+8TGcXsE="
         }
       ]
     },
     {
-      "Route": "js/datatables-simple-demo.xnqwbb6zwd.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-xnqwbb6zwd.gz",
+      "Route": "js/datatables-simple-demo.mrcm95qwwq.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\55w7afjdl3-mrcm95qwwq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6404,7 +6404,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "202"
+          "Value": "204"
         },
         {
           "Name": "Content-Type",
@@ -6412,11 +6412,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw=\""
+          "Value": "\"EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6434,7 +6434,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xnqwbb6zwd"
+          "Value": "mrcm95qwwq"
         },
         {
           "Name": "label",
@@ -6442,18 +6442,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zzcXAQNBIPXzf1QmO+o0DgxrY6+o0/92XnFiEHEmHXw="
+          "Value": "sha256-EoNtoI40U+xeiw5ZZfTy6iJW3f2AHC7pgkQfSwVROWY="
         }
       ]
     },
     {
-      "Route": "js/scripts.dqle62frat.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-dqle62frat.gz",
+      "Route": "js/scripts.1og25pym0p.js",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-1og25pym0p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002178649237"
+          "Quality": "0.002132196162"
         }
       ],
       "ResponseHeaders": [
@@ -6463,15 +6463,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "458"
+          "Value": "468"
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI=\""
+          "Value": "\"byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6491,13 +6491,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720=\""
+          "Value": "W/\"4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dqle62frat"
+          "Value": "1og25pym0p"
         },
         {
           "Name": "label",
@@ -6505,12 +6505,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720="
+          "Value": "sha256-4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4="
         }
       ]
     },
     {
-      "Route": "js/scripts.dqle62frat.js",
+      "Route": "js/scripts.1og25pym0p.js",
       "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\wwwroot\\js\\scripts.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6520,7 +6520,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "976"
+          "Value": "1002"
         },
         {
           "Name": "Content-Type",
@@ -6528,11 +6528,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720=\""
+          "Value": "\"4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6542,7 +6542,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dqle62frat"
+          "Value": "1og25pym0p"
         },
         {
           "Name": "label",
@@ -6550,13 +6550,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720="
+          "Value": "sha256-4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4="
         }
       ]
     },
     {
-      "Route": "js/scripts.dqle62frat.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-dqle62frat.gz",
+      "Route": "js/scripts.1og25pym0p.js.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-1og25pym0p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6565,7 +6565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "458"
+          "Value": "468"
         },
         {
           "Name": "Content-Type",
@@ -6573,11 +6573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI=\""
+          "Value": "\"byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6595,7 +6595,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dqle62frat"
+          "Value": "1og25pym0p"
         },
         {
           "Name": "label",
@@ -6603,18 +6603,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI="
+          "Value": "sha256-byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y="
         }
       ]
     },
     {
       "Route": "js/scripts.js",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-dqle62frat.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-1og25pym0p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002178649237"
+          "Quality": "0.002132196162"
         }
       ],
       "ResponseHeaders": [
@@ -6624,15 +6624,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "458"
+          "Value": "468"
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI=\""
+          "Value": "\"byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6652,13 +6652,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720=\""
+          "Value": "W/\"4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720="
+          "Value": "sha256-4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4="
         }
       ]
     },
@@ -6673,7 +6673,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "976"
+          "Value": "1002"
         },
         {
           "Name": "Content-Type",
@@ -6681,11 +6681,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720=\""
+          "Value": "\"4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6695,13 +6695,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hSOKtaoLbtAX3QLxogVcaVg8Fv7Y6HTCcpJqVePv720="
+          "Value": "sha256-4YkZXKpufl0NmzmWG9dr0QHm2bwGZuhZVN9IIQpRBP4="
         }
       ]
     },
     {
       "Route": "js/scripts.js.gz",
-      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-dqle62frat.gz",
+      "AssetFile": "C:\\DotnetProjects\\BulkyWeb_MVC\\obj\\Debug\\net9.0\\compressed\\4pjx35oock-1og25pym0p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6710,7 +6710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "458"
+          "Value": "468"
         },
         {
           "Name": "Content-Type",
@@ -6718,11 +6718,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI=\""
+          "Value": "\"byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Mar 2023 22:09:39 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6740,7 +6740,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Q5Un8IEsBVvYl3vxwko9zxF7vGgboOQ/g627MbxXmyI="
+          "Value": "sha256-byjVCeYiNMBuG7wCI3uO0Daz1zM7x6wHRaJ7kU2HQ6Y="
         }
       ]
     },
@@ -23835,7 +23835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 10:19:53 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23872,7 +23872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 10:19:53 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23917,7 +23917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:35:56 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23962,7 +23962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:35:56 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23999,7 +23999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:06 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24044,7 +24044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:06 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24081,7 +24081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:34:56 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24126,7 +24126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:34:56 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24163,7 +24163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:42 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24200,7 +24200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:42 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24245,7 +24245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:58 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24282,7 +24282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:58 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24327,7 +24327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:08 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24372,7 +24372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:08 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24409,7 +24409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:51 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24454,7 +24454,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:51 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24491,7 +24491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:35:37 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24536,7 +24536,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:35:37 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24573,7 +24573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:26 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24610,7 +24610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:36:26 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24655,7 +24655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:19 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24692,7 +24692,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:37:19 GMT"
+          "Value": "Wed, 15 Jan 2025 14:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
