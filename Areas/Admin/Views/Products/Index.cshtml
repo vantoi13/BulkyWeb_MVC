@@ -1,48 +1,65 @@
-@model IEnumerable<BulkyWeb.ViewModels.ProductViewModel>
-
+@model PaginatedList<ProductViewModel>
 <partial name="_Notification" />
 <div class="=Container">
     <div class="row pt-4 pb-3">
         <div class="col-6">
-            <h2 class="text-primary";">
+            <h2 class="text-primary" ;">
                 Product List
             </h2>
         </div>
 
     </div>
 </div>
+<form asp-action="Index">
+    <div class="d-flex">
+        <input class="form-control" placeholder="Search..." value="@ViewData["CurrentFilter"]" type="text"
+            autocomplete="off" name="SearchString" />
+    </div>
+</form>
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["TitleSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    @Html.DisplayNameFor(model => model[0].Title)
+                </a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+
+                @Html.DisplayNameFor(model => model[0].Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ISBN)
+
+                @Html.DisplayNameFor(model => model[0].ISBN)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Author)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["TitleSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    @Html.DisplayNameFor(model => model[0].Author)
+                </a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ListPrice)
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["TitleSortParm"]"
+                    asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    @Html.DisplayNameFor(model => model[0].ListPrice)
+                </a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price50)
+                @Html.DisplayNameFor(model => model[0].Price50)
+                <a asp-action="Index"></a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price100)
+                @Html.DisplayNameFor(model => model[0].Price100)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImagePath)
+                @Html.DisplayNameFor(model => model[0].ImagePath)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CategoryName)
+                @Html.DisplayNameFor(model => model[0].CategoryName)
             </th>
             <th style="text-align: center;">Manage</th>
         </tr>
@@ -99,3 +116,17 @@
         }
     </tbody>
 </table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a class="btn btn-primary" asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]" asp-route-pageNumber="@(Model.PageIndex - 1)"
+    asp-route-currentFilter="@ViewData["CurrentFilter"]" class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a class="btn btn-primary" asp-action="Index" asp-route-sortOrder="@ViewData["CurrentSort"]" asp-route-pageNumber="@(Model.PageIndex + 1)"
+    asp-route-currentFilter="@ViewData["CurrentFilter"]" class="btn btn-default @nextDisabled">
+    Next
+</a>

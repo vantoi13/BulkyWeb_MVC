@@ -19,8 +19,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
+                <textarea asp-for="Description" class="form-control"> </textarea>
+                @* <span asp-validation-for="Description" class="text-danger"></span> *@
             </div>
             <div class="form-group">
                 <label asp-for="ISBN" class="control-label"></label>
@@ -97,6 +97,16 @@
             });
         });
     </script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists link image',
+            toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+        });
+    </script>
+    <script src="https://cdn.tiny.cloud/1/f6bv7s9n94d604kag58mxd4wmdyzicgy8d60fpu569xwbpdz/tinymce/7/tinymce.min.js"
+        referrerpolicy="origin"></script>
+
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
