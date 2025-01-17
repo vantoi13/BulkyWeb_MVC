@@ -25,7 +25,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+
+    app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -39,4 +40,13 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApplicationDbContext>();
+
+    // Gọi phương thức Seed để thêm dữ liệu vào cơ sở dữ liệu
+    DbInitializer.Seed(services);
+}
 app.Run();
