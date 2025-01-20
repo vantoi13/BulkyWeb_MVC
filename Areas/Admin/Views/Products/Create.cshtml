@@ -3,7 +3,9 @@
 @{
     ViewData["Title"] = "Create";
 }
-
+<link href='https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css' rel='stylesheet'
+    type='text/css' />
+<!-- Các quy tắc CSS để định dạng phần tử bên trong trình soạn thảo như p, h1, h2, v.v. -->
 <h1>Create</h1>
 
 <h4>Product</h4>
@@ -19,7 +21,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control"> </textarea>
+                <textarea id="example" asp-for="Description" class="form-control"> </textarea>
                 @* <span asp-validation-for="Description" class="text-danger"></span> *@
             </div>
             <div class="form-group">
@@ -97,16 +99,12 @@
             });
         });
     </script>
+    <script type='text/javascript'
+        src='https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js'></script>
     <script>
-        tinymce.init({
-            selector: 'textarea',
-            plugins: 'lists link image',
-            toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
-        });
+        var editor = new FroalaEditor('#example');
     </script>
-    <script src="https://cdn.tiny.cloud/1/f6bv7s9n94d604kag58mxd4wmdyzicgy8d60fpu569xwbpdz/tinymce/7/tinymce.min.js"
-        referrerpolicy="origin"></script>
-
+   
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
