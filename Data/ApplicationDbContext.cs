@@ -1,13 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BulkyWeb.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BulkyWeb.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -22,6 +20,13 @@ namespace BulkyWeb.Data
                         .HasOne(p => p.Category)
                         .WithMany(c => c.Products)
                         .HasForeignKey(p => p.CategoryId);
+            modelBuilder.Entity<IdentityRole>().ToTable("Roles").Property(x => x.Id).HasMaxLength(50).IsUnicode(false);
+            modelBuilder.Entity<User>().ToTable("Users").Property(x => x.Id).HasMaxLength(50).IsUnicode(false);
+            modelBuilder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
+            modelBuilder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
+            modelBuilder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins");
+            modelBuilder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
+            modelBuilder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
 
             base.OnModelCreating(modelBuilder);
         }

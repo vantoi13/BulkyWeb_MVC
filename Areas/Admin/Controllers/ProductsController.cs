@@ -17,6 +17,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
     {
 
         private readonly ApplicationDbContext _context;
+        int a = 8;
         private readonly IProductService _productService;
         public ProductsController(ApplicationDbContext context, IProductService productService)
         {
@@ -25,10 +26,17 @@ namespace BulkyWeb.Areas.Admin.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
+
+            ViewData["TitleSortParm"] = String.IsNullOrEmpty(sortOrder) || sortOrder.Equals("title") ? "title_desc" : "";
+            ViewData["AuthorSortParm"] = String.IsNullOrEmpty(sortOrder) || sortOrder.Equals("author") ? "author" : "";
+            ViewData["ListPriceSortParm"] = String.IsNullOrEmpty(sortOrder) || sortOrder.Equals("listprice") ? "listprice" : "";
+
+            ViewData["CurrentFilter"] = searchString;
+            ViewData["CurrentSort"] = sortOrder;
             // var applicationDbContext = _context.Products.Include(p => p.Category);
-            return View(await _productService.GetProducts());
+            return View(await _productService.GetAllFilter(sortOrder, currentFilter, searchString, pageNumber, a));
         }
 
         // GET: Products/Details/5

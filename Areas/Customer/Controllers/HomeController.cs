@@ -16,7 +16,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
             _productService = productService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber)
         {
             // var applicationDbContext = _context.Products.Include(p => p.Category);
             return View(await _productService.GetProducts());
