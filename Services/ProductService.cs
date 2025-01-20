@@ -86,5 +86,37 @@ namespace BulkyWeb.Services
         {
             return _context.Products.Any(e => e.Id == id);
         }
+
+        public async Task<PaginatedList<ProductViewModel>> GetAllFilter(string sortOrder, string currentFilter, string searchString, int? pageNumber, int pageSize)
+        {
+            if (searchString != null)
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            var products = from m in _context.Products.Include(p => p.Category) select m
+            ;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(s => s.Title!.Contains(searchString)
+                || s.Title!.Contains(searchString)
+                || s.Author!.Contains(searchString));
+            }
+
+            products = sortOrder switch
+            {
+                "title_desc" => products.OrderByDescending(s => s.Title),
+                "author" => products.OrderBy(s => s.Author),
+                "listprice" => products.OrderBy(s => s.ListPrice),
+                _ => products.OrderBy(s => s.Title),
+            };
+
+            return PaginatedList<ProductViewModel>.Create(_mapper.Map<IEnumerable<ProductViewModel>>(await products.ToListAsync()), pageNumber ?? 1, pageSize);
+        }
     }
 }
