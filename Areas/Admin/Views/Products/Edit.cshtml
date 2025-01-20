@@ -21,7 +21,7 @@
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
                 <textarea asp-for="Description" class="form-control"></textarea>
-                @* <span asp-validation-for="Description" class="text-danger"></span> *@
+                <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ISBN" class="control-label"></label>
@@ -79,6 +79,26 @@
 </div>
 
 @section Scripts {
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: [
+                'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link',
+                'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
+                'formatpainter', 'typography', 'checklist', 'advtable', 'advcode',
+                'editimage', 'fontfamily', 'fontsize', 'forecolor', 'backcolor'
+            ],
+            toolbar: 'undo redo | fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            font_family_formats: 'Arial=arial,helvetica,sans-serif; Courier New=courier new,courier,monospace; Georgia=georgia,palatino,serif; Times New Roman=times new roman,times,serif; Verdana=verdana,geneva,sans-serif;',
+            fontsize_formats: '8pt 10pt 12pt 14pt 18pt 24pt 36pt',
+            menubar: false,
+            branding: false,
+            height: 300
+        });
+    </script>
+
 
     <script>
         $(document).ready(function () {
@@ -103,36 +123,9 @@
                 $('#preview').addClass('d-none');
             }
         });
-
-    </script>
-    <script src="https://cdn.tiny.cloud/1/f6bv7s9n94d604kag58mxd4wmdyzicgy8d60fpu569xwbpdz/tinymce/7/tinymce.min.js"
-        referrerpolicy="origin"></script>
-
-    <script>
-        tinymce.init({
-            selector: 'textarea',
-            plugins: [
-                'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media',
-                'searchreplace', 'table', 'visualblocks', 'wordcount', 'formatpainter', 'typography',
-                'checklist', 'advtable', 'advcode', 'editimage', 'fontfamily', 'fontsize', 'forecolor',
-                'backcolor' // Plugin cho màu chữ và nền
-            ],
-            toolbar: 'undo redo | fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-            font_family_formats: 'Arial=arial,helvetica,sans-serif; Courier New=courier new,courier,monospace; Georgia=georgia,palatino,serif; Times New Roman=times new roman,times,serif; Verdana=verdana,geneva,sans-serif;',
-            fontsize_formats: '8pt 10pt 12pt 14pt 18pt 24pt 36pt',
-            tinycomments_mode: 'embedded',
-            tinycomments_author: 'Author name',
-            menubar: false,
-            branding: false,
-            height: 300,
-            setup: (editor) => {
-                editor.on('init', () => {
-                    console.log('TinyMCE Initialized');
-                });
-            }
-        });
     </script>
 
+   
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
